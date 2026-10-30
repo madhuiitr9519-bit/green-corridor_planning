@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Green Corridor Planning | IIT Roorkee</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ANIMATED BACKGROUND -->
+<div class="background-glow"></div>
+<div class="particles" id="particles"></div>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+
+    <a class="logo" onclick="showPage(1)">
+        <i class="fa-solid fa-leaf"></i>
+        GREEN<span>CORRIDOR</span>
+    </a>
+
+    <div class="nav-links">
+        <button onclick="showPage(1)">Home</button>
+        <button onclick="showPage(2)">Project Need</button>
+        <button onclick="showPage(3)">Analysis</button>
+    </div>
+
+</nav>
+
+
+<!-- PAGE 1: HOME -->
+<section id="page1" class="page active">
+
+    <div class="hero">
+
+        <div class="hero-text">
+
+            <div class="top-label">
+                <span class="pulse-dot"></span>
+                SUSTAINABLE URBAN DEVELOPMENT
+            </div>
+
+            <h1>
+                GREEN<br>
+                <span>CORRIDOR</span>
+            </h1>
+
+            <h2>
+                Planning for Sustainable and
+                Pedestrian-Friendly Urban Roads
+            </h2>
+
+            <p class="hero-description">
+                Identifying road sections for additional tree
+                plantation through geospatial analysis of land
+                surface temperature, existing tree canopy and
+                road usage.
+            </p>
+
+            <div class="presented">
+
+                <div class="presented-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div>
+                    <small>PROJECT PRESENTED BY</small>
+                    <h3>3D MINDS</h3>
+                    <p>Indian Institute of Technology Roorkee</p>
+                </div>
+
+            </div>
+
+            <button class="main-button" onclick="showPage(2)">
+                Explore Project
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- DECORATIVE ANIMATION -->
+        <div class="hero-visual">
+
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+
+            <div class="hero-leaf leaf-one">🌿</div>
+            <div class="hero-leaf leaf-two">🍃</div>
+            <div class="hero-leaf leaf-three">🌱</div>
+
+            <div class="eco-card">
+
+                <div class="eco-icon">
+                    <i class="fa-solid fa-tree"></i>
+                </div>
+
+                <h3>Greener Streets</h3>
+
+                <p>
+                    Creating cooler and healthier urban
+                    environments.
+                </p>
+
+            </div>
+
+            <div class="eco-stat stat-one">
+                <i class="fa-solid fa-seedling"></i>
+                Urban Greenery
+            </div>
+
+            <div class="eco-stat stat-two">
+                <i class="fa-solid fa-person-walking"></i>
+                Pedestrian Comfort
+            </div>
+
+        </div>
+
+        <div class="scroll-indicator">
+            SCROLL TO EXPLORE
+            <i class="fa-solid fa-angles-down"></i>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 2: WHY THIS PROJECT -->
+<section id="page2" class="page">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">THE NEED FOR THIS PROJECT</span>
+
+            <h1>
+                Why Do We Need
+                <span>Green Corridors?</span>
+            </h1>
+
+            <p>
+                Increasing urbanisation and road development
+                can reduce green spaces and increase thermal
+                discomfort. Green corridors can help create
+                healthier and more comfortable urban streets.
+            </p>
+
+        </div>
+
+
+        <div class="problem-grid">
+
+            <div class="problem-card reveal">
+
+                <div class="problem-icon orange">
+                    <i class="fa-solid fa-temperature-high"></i>
+                </div>
+
+                <h3>Increasing Urban Heat</h3>
+
+                <p>
+                    High land surface temperatures can make
+                    roads and surrounding areas uncomfortable
+                    for pedestrians.
+                </p>
+
+            </div>
+
+
+            <div class="problem-card reveal">
+
+                <div class="problem-icon green">
+                    <i class="fa-solid fa-tree"></i>
+                </div>
+
+                <h3>Insufficient Tree Cover</h3>
+
+                <p>
+                    Roads with limited tree canopy may lack
+                    natural shade and require additional
+                    plantation.
+                </p>
+
+            </div>
+
+
+            <div class="problem-card reveal">
+
+                <div class="problem-icon yellow">
+                    <i class="fa-solid fa-road"></i>
+                </div>
+
+                <h3>Road Environment</h3>
+
+                <p>
+                    Frequently used roads need suitable
+                    greenery to improve the surrounding
+                    walking environment.
+                </p>
+
+            </div>
+
+
+            <div class="problem-card reveal">
+
+                <div class="problem-icon blue">
+                    <i class="fa-solid fa-person-walking"></i>
+                </div>
+
+                <h3>Pedestrian Comfort</h3>
+
+                <p>
+                    Tree-lined roads can provide shade and
+                    help create a more comfortable space
+                    for pedestrians.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="objective-box reveal">
+
+            <div class="objective-icon">
+                <i class="fa-solid fa-bullseye"></i>
+            </div>
+
+            <div>
+
+                <span class="eyebrow">PROJECT OBJECTIVE</span>
+
+                <h2>Our Main Objective</h2>
+
+                <p>
+                    To identify suitable road sections for
+                    green corridor development by analysing
+                    land surface temperature, existing tree
+                    canopy coverage and road usage.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+            <button class="outline-button" onclick="showPage(1)">
+                <i class="fa-solid fa-arrow-left"></i>
+                Previous
+            </button>
+
+            <button class="main-button" onclick="showPage(3)">
+                View Spatial Analysis
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 3: SPATIAL ANALYSIS -->
+<section id="page3" class="page">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">GEOSPATIAL ANALYSIS</span>
+
+            <h1>
+                Spatial Analysis &
+                <span>Findings</span>
+            </h1>
+
+            <p>
+                Three important spatial indicators are used
+                to identify potential locations for additional
+                tree plantation and green corridor development.
+            </p>
+
+        </div>
+
+
+        <!-- THREE DATASET CARDS -->
+        <div class="analysis-grid three-columns">
+
+
+            <!-- LST -->
+            <div class="analysis-card reveal">
+
+                <div class="image-container">
+
+                    <img src="LST.jpeg">
+                    alt="Land Surface Temperature map">
+
+                    <span class="image-number">01</span>
+
+                </div>
+
+                <div class="analysis-content">
+
+                    <span class="card-tag heat-tag">
+                        TEMPERATURE
+                    </span>
+
+                    <h3>Land Surface Temperature</h3>
+
+                    <p>
+                        Identifies relatively warmer areas.
+                        Road sections with high surface
+                        temperatures may need additional
+                        vegetation.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- TREE CANOPY -->
+            <div class="analysis-card reveal">
+
+                <div class="image-container">
+
+                    <img src="tree.png"
+                    alt="Tree canopy map">
+
+                    <span class="image-number">02</span>
+
+                </div>
+
+                <div class="analysis-content">
+
+                    <span class="card-tag">
+                        TREE COVER
+                    </span>
+
+                    <h3>Tree Canopy Analysis</h3>
+
+                    <p>
+                        Shows existing tree cover and helps
+                        identify road sections where natural
+                        shade is limited.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ROAD USAGE -->
+            <div class="analysis-card reveal">
+
+                <div class="image-container">
+
+                    <img src="road.png">
+                    
+                    alt="Road usage map">
+
+                    <span class="image-number">03</span>
+
+                </div>
+
+                <div class="analysis-content">
+
+                    <span class="card-tag road-tag">
+                        ROAD NETWORK
+                    </span>
+
+                    <h3>Road Usage Analysis</h3>
+
+                    <p>
+                        Highlights important and frequently
+                        used roads where additional greenery
+                        may benefit more road users.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRIORITY IDENTIFICATION -->
+        <div class="priority-section reveal">
+
+            <div class="priority-heading">
+
+                <span class="eyebrow">
+                    GREEN CORRIDOR IDENTIFICATION
+                </span>
+
+                <h2>
+                    Where is a Green Corridor
+                    <span>Needed?</span>
+                </h2>
+
+                <p>
+                    Combining the three indicators helps
+                    identify road sections that should receive
+                    higher priority for additional tree plantation.
+                </p>
+
+            </div>
+
+
+            <div class="priority-list">
+
+
+                <div class="priority-item">
+
+                    <div class="priority-icon">
+                        <i class="fa-solid fa-temperature-high"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>High Land Surface Temperature</h3>
+
+                        <p>
+                            Road sections with high LST indicate
+                            relatively warmer surroundings and
+                            may benefit from additional vegetation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="priority-item">
+
+                    <div class="priority-icon">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Low Tree Canopy Coverage</h3>
+
+                        <p>
+                            Roads with insufficient existing
+                            tree cover may lack natural shade
+                            for pedestrians.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="priority-item">
+
+                    <div class="priority-icon">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>High Road Usage</h3>
+
+                        <p>
+                            Frequently used roads are important
+                            locations to consider because more
+                            road users may benefit from shade.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="priority-item">
+
+                    <div class="priority-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Combined Priority</h3>
+
+                        <p>
+                            Roads with high LST, low tree canopy
+                            and high usage should be considered
+                            for higher plantation priority.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRIORITY LEVELS -->
+            <div class="priority-levels">
+
+                <h3>Suggested Priority Categories</h3>
+
+                <div class="level-grid">
+
+                    <div class="level-card high">
+
+                        <span class="level-dot"></span>
+
+                        <h4>High Priority</h4>
+
+                        <p>
+                            High LST + Low Canopy +
+                            High Road Usage
+                        </p>
+
+                    </div>
+
+
+                    <div class="level-card medium">
+
+                        <span class="level-dot"></span>
+
+                        <h4>Medium Priority</h4>
+
+                        <p>
+                            Two of the three indicators
+                            show a need for intervention.
+                        </p>
+
+                    </div>
+
+
+                    <div class="level-card low">
+
+                        <span class="level-dot"></span>
+
+                        <h4>Lower Priority</h4>
+
+                        <p>
+                            Lower heat stress or adequate
+                            existing tree cover.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <p class="level-note">
+                    These are suggested screening categories.
+                    Final priority should be determined using
+                    measured values, selected weights and
+                    field verification.
+                </p>
+
+            </div>
+
+
+            <!-- CONCLUSION -->
+            <div class="conclusion-box">
+
+                <div class="conclusion-top">
+
+                    <i class="fa-solid fa-seedling"></i>
+
+                    PROJECT CONCLUSION
+
+                </div>
+
+                <h2>
+                    Creating Cooler and Greener Urban Streets
+                </h2>
+
+                <p>
+                    Priority should be given to road sections
+                    where land surface temperature is high,
+                    existing tree canopy is low and road usage
+                    is high. These locations may be suitable
+                    for additional tree plantation and green
+                    corridor development.
+                </p>
+
+                <p>
+                    The proposed plantation locations should
+                    also be checked for available roadside
+                    space, underground utilities, visibility,
+                    pedestrian movement and road safety.
+                </p>
+
+                <div class="conclusion-highlight">
+
+                    <i class="fa-solid fa-check-circle"></i>
+
+                    <span>
+                        Combining temperature, tree canopy
+                        and road usage provides a geospatial
+                        approach for identifying potential
+                        green corridor locations.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+            <button class="outline-button" onclick="showPage(2)">
+                <i class="fa-solid fa-arrow-left"></i>
+                Previous
+            </button>
+
+            <button class="main-button" onclick="showPage(1)">
+                Back to Home
+                <i class="fa-solid fa-house"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        <i class="fa-solid fa-leaf"></i>
+        GREEN CORRIDOR
+    </div>
+
+    <p>
+        Planning greener streets for a sustainable urban future.
+    </p>
+
+    <small>
+        Project Presentation | IIT Roorkee
+    </small>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
